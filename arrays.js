@@ -3,18 +3,18 @@
 
 // 1. printIndices
 function printIndices(items) {
-  for (const item in items) {
-  console.log(item);
+  for (const i in items) {
+  console.log(items[i], i);
   }
 }
 
 // 2. everyOtherItem
-function everyOtherItem(items) {
-  const result = []
+// function everyOtherItem(items) {
+//   const result = []
 
-  for (const item in items)
+//   for (const item in items)
 
-}
+// }
 
 
 // 3. smallestNItems
