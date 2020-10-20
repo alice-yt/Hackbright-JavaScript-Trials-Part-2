@@ -3,14 +3,17 @@
 
 // 1. printIndices
 function printIndices(items) {
-  for (const item in items)
+  for (const item in items) {
   console.log(item);
+  }
 }
-
 
 // 2. everyOtherItem
 function everyOtherItem(items) {
-  // Replace this with your code
+  const result = []
+
+  for (const item in items)
+
 }
 
 
