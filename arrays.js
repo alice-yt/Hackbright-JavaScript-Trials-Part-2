@@ -10,7 +10,7 @@ function printIndices(items) {
 
 // 2. everyOtherItem
 function everyOtherItem(items) {
-  const result = []
+  const result = [];
 
   for (const i in items) {
     if (i % 2 === 0) {
@@ -24,5 +24,8 @@ function everyOtherItem(items) {
 
 // 3. smallestNItems
 function smallestNItems(items, n) {
-
+  const sorted = items.sort((a,b) => a - b);
+  console.log(sorted.slice(0, n));
 }
+
+smallestNItems([1, 50, 21, 100, 33], 3)
