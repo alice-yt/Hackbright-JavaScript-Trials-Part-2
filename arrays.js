@@ -14,7 +14,7 @@ function everyOtherItem(items) {
 
   for (const i in items) {
     if (i % 2 === 0) {
-      result.push(items[i])
+      result.push(items[i]);
     }
   }
   return result;
@@ -24,5 +24,5 @@ function everyOtherItem(items) {
 
 // 3. smallestNItems
 function smallestNItems(items, n) {
-  // Replace this with your code
+
 }
