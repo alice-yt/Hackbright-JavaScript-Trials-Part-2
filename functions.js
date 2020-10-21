@@ -3,7 +3,7 @@
 
 // 1. isHometown
 
-// Define your function here
+ const isHometown = ('Oakland')
 
 
 // 2. getFullName
